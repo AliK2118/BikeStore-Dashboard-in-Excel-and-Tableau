@@ -14,6 +14,33 @@ The insights and recommendations on key areas are as follows:
 - **Sales Trends Analysis:** An evaluation of the sales patterns by region and store, focusing on revenue, order Volume.
 - **Regional Comparisons:** An evaluation of sales and orders by region
 
+## Data Sources and Structure
+The company mantains significant amounts of data about its stores, products, categories, brands, stock, customers, 
+order_items, orders and staff on its database that need to be utilized to generate useful insights.
+The primary dataset used for this analysis is the 
+
+## Tools used 
+- SQLServer - Data Analysis
+- Excel and Tableau -creating reports
+ 
+## Data Preparation
+In the initial data preparation phase the following tasks were performed:
+
+## Data Analysis
+Worked with the following SQL code:
+
+```sql
+SELECT * FROM employees;
+```
+## Results/Findings
+
+## Recommedndations
+
+## Limitations
+
+## Acknowledgements
+
+
 
 ## Files
 - **SQL_query.sql**: contains the SQL query used in analysis of the dataset in order to answer some specific business questions
