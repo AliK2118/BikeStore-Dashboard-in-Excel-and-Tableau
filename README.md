@@ -1,12 +1,18 @@
 # BikeStore-Dashboard-in-Excel-and-Tableau
 
-## Overview
-This repository contains an SQL query and the documentation for the analysis of a Bike Store company data.
-BikeStore, established in 2010, is a popular bike store that deals in different bikes and their accessories. 
-The company mantains significant amounts of data about its stores, products, categories, brands, stock, customers, 
+## Project Overview
+In this end-to-end BI project, bike sales data for a BikeStore company was thoroughly explored and analyzed to 
+uncover insights about customer demographics and their purchasing behaviors, trends influencing bike purchases.
+BikeStore a popular bike store deals in different bikes and their accessories. 
+It mantains significant amounts of data about its stores, products, categories, brands, stock, customers, 
 order_items, orders and staff on its database that need to be utilized to generate useful insights.
-This data was thoroughly analysed, and critical insights to help BikeStore management make informed decisions for 
-its success were uncovered.
+The goal is to demonstrate ...
+
+## Objectives 
+- understand customer profile of bike purchasers vs. non-purchasers.
+- identify **factors influencing bike sales** (e.g.,income, marital status).
+- Visualize **sales trends and relationships** between different demographic variables.
+- Practice **data analysis workflow** from database creation to storytelling with data.
 
 The insights and recommendations on key areas are as follows:
 - **Product Level Performance:** Analysis of BikeStore's product lines in order to understand theor impact on the sales
@@ -16,8 +22,8 @@ The insights and recommendations on key areas are as follows:
 
 ## Data Sources and Structure
 The company mantains significant amounts of data about its stores, products, categories, brands, stock, customers, 
-order_items, orders and staff on its database that need to be utilized to generate useful insights.
-The primary dataset used for this analysis is the 
+order_items, orders and staff on its database. The data can be downloaded here.
+The database structure can be viewed here.
 
 ## Tools used 
 - SQLServer - Data Analysis
@@ -26,7 +32,7 @@ The primary dataset used for this analysis is the
 ## Data Preparation
 In the initial data preparation phase the following tasks were performed:
 
-## Data Analysis
+## Data Analysis and Visualizartion
 Worked with the following SQL code:
 
 ```sql
@@ -36,15 +42,15 @@ SELECT * FROM employees;
 
 ## Recommedndations
 
-## Limitations
-
+## Skills Demonstrated
+- **Data Importation** -data was imported into Microsoft SQLServer to be queried
+- **Exploratory Data Analysis (EDA)** - identified patterns and trends through graphical methods
+- **Data Visualization** - created a compelling executive dashboard
+- **Analytical thinking** - derived actionable insights from the data to support decision-making
+- **Storytelling with Data** - translated raw data into narratives that communicates ke findings
+- **Version Control & Documentation** - project organisation, GitHub repository structure, and professional reporting
+  
 ## Acknowledgements
 
-
-
-## Files
-- **SQL_query.sql**: contains the SQL query used in analysis of the dataset in order to answer some specific business questions
-- **Data Dictionary**: Documentation describing the structure and content of the different tables of the dataset used.
-- **READM**E This file provides the overview of the repository
   
 Click 👉 here 👈 to see the files
