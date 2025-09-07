@@ -42,9 +42,9 @@ marketing strategies, and operational efficiency are as follows:
 
 ## Data Sources and Structure
 The company maintained significant amount of data about its stores, products, categories, brands, stock, customers, 
-order_items, orders and staff on its database. The dataset used can be [downloaded here].
+order_items, orders and staff on its database. The dataset used can be [downloaded here](SQL-Server-Sample-Database.zip).
 
-The database structure can be viewed [here].
+The database structure can be viewed ![here](BikeStore-Relational-Database.png).
 
 ## Tools used 
 - SQL Server - Data Analysis
