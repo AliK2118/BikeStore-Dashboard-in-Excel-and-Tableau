@@ -2,11 +2,11 @@
 
 ## Project Overview
 In this end-to-end BI project, bike sales data for a BikeStore company was thoroughly explored and analyzed to 
-uncover insights about customer demographics and their purchasing behaviors, trends influencing bike purchases.
+uncover actionable insights about customer demographics and their purchasing behaviors, trends influencing bike purchases, 
+and sataff/store efficiency.
 BikeStore a popular bike store deals in different bikes and their accessories. 
-It mantains significant amounts of data about its stores, products, categories, brands, stock, customers, 
-order_items, orders and staff on its database that need to be utilized to generate useful insights.
-The goal is to demonstrate ...
+This analysis leverages SQL, Excel and Tableau to support business decisions for greater profitability, operational
+improvement and enhancementr of customer satisfaction.
 
 ## Objectives 
 - understand customer profile of bike purchasers vs. non-purchasers.
@@ -14,40 +14,42 @@ The goal is to demonstrate ...
 - Visualize **sales trends and relationships** between different demographic variables.
 - Practice **data analysis workflow** from database creation to storytelling with data.
 
-## Data Insights
-Some key insights based on the Store's sales data that can be used in enhancing decision-making, 
+## Data Insights and Recommendations
+Some key insights based on the store's sales data that can be used in enhancing decision-making, 
 marketing strategies, and operational efficiency are as follows:
-### Top Products by Sales Volume
-- Mountain Bikes
-- Electric Bikes
-- Avvessories
-### Customer Demographics
-- Geography: Tope sales were recorded in *********
-- Purchasing Frequeny: Repeat customers make up of all transactions, which might imply a need for loyalty programs.
+ 1. **Sales Analysis**:
+    - Mountain bikes contributed the biggest percentage of the total revenue.
+    - Most sales were realized in 2017 whereas April, 2018 had the highest revenue.
+    - *Recommendation*:
+       - Increase stock and introduce new models in this category.
+       - consider increasing marketing efforts in order to maximize revenue.
+ 2. **Staff & Store Performance**:
+    - The Rowlett Bikes store in Texas underperformed in revenue.
+    - There was a significant gap between the top and the bottom performing sales staff.
+    - *Recommendation*:
+       - Evaluate store location viability - focus on cycling-friendly areas or retrain sales staff.
+       - Provide staff training in the lower-performing store to standardize customer experience and improve upselling skills
+       - introduce performance incentives.
 
-## Actionable Recommendations
-
-The insights and recommendations on key areas are as follows:
-- **Product Level Performance:** Analysis of BikeStore's product lines in order to understand theor impact on the sales
-  and returns
-- **Sales Trends Analysis:** An evaluation of the sales patterns by region and store, focusing on revenue, order Volume.
-- **Regional Comparisons:** An evaluation of sales and orders by region
+ 3. **Customer Analysis**
+    - identified high-value and repeat customers for the three years.
+    - identified customer demographics and purchasing behavior.
+    - *Recommendation*:
+       - need to implement loyalty programs where customers can earn points for each purchase that can be redeemed for discounts
+       - introduce some exclusive offers and email campaigns based on past purchasing behavior to encourage repeat business among valuable customer segments (e.g.,
+         "It's time for a new bike light!" or "Get 10% off your next Mountain bike purchase") .
+       - insure the website is mobile-optimized  so as to offer smooth browsing and purchasing experience on mobile devices.
 
 ## Data Sources and Structure
-The company mantains significant amounts of data about its stores, products, categories, brands, stock, customers, 
-order_items, orders and staff on its database. The data can be downloaded here.
-The database structure can be viewed here.
+The company maintained significant amount of data about its stores, products, categories, brands, stock, customers, 
+order_items, orders and staff on its database. The dataset used can be [downloaded here].
+
+The database structure can be viewed [here].
 
 ## Tools used 
-- SQLServer - Data Analysis
+- SQL Server - Data Analysis
 - Excel and Tableau -creating reports
  
-## Data Preparation
-In the initial data preparation phase the following tasks were performed:
-
-## Data Analysis and Visualizartion
-Worked with the following SQL code:
-
 ## Skills Demonstrated
 - **Data Importation** -data was imported into Microsoft SQLServer to be queried in order to generate a dataset.
 - **Exploratory Data Analysis (EDA)** - identified patterns and trends through graphical methods (line chart, bar chart, slicers, map visual).
